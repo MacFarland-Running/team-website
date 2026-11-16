@@ -1,0 +1,44 @@
+/* css styles */
+
+.callout-box {
+  background: #FFF7DE;
+  border-left: 6px solid #B91C2B;
+  padding: 14px 18px;
+  border-radius: 4px;
+  margin: 1.2em 0;
+}
+
+/* Large hero logo on the home page, right column */
+.team-logo-hero {
+  max-width: 175%;
+  width: 175%;
+  height: auto;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width: 767px) {
+  .team-logo-hero {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 1rem 0 0 0;
+  }
+}
+
+/* header */
+#site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1030;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .5rem 1.5rem;
+  background: #12355B;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+.header-img { height: 48px; width: auto; }
+.header-text { font-size: .95rem; line-height: 1.3; }
+
+body { padding-top: 70px; }
+h1, h2, h3 { scroll-margin-top: 80px; }

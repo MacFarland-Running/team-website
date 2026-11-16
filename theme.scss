@@ -1,0 +1,61 @@
+/*-- scss:defaults --*/
+// MacFarland Track & XC — Bold Track theme (black + white)
+
+$black: #000000;
+$red: #B91C2B;
+$black-dark: #000000;
+$white: #FFFFFF;
+
+$primary: $black;
+$body-color: #262626;
+$link-color: $black-dark;
+
+$font-family-sans-serif: "Barlow", sans-serif;
+$headings-font-family: "Barlow Condensed", sans-serif;
+$headings-font-weight: 700;
+$headings-color: $black;
+
+$table-striped-bg: #FFFFFF;
+
+/*-- scss:rules --*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap');
+
+.navbar {
+  border-bottom: 4px solid $red;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1.title {
+  border-left: 8px solid $red;
+  padding-left: 16px;
+}
+
+h2 {
+  border-bottom: 3px solid $red;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+a {
+  border-bottom: 2px solid $red;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul > li::marker {
+  color: $red;
+  font-size: 1.2em;
+}
+
+.callout {
+  background: #FFFFFF;
+  border-left: 6px solid $red;
+  padding: 14px 18px;
+  border-radius: 4px;
+}
+
+table thead {
+  background-color: $black;
+  color: $white;
+}

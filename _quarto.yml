@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Mustang Running"
+  favicon: images/MacfarlandRunningMustangLogo.png
+  navbar:
+    background: "#000000"
+    foreground: "#FFFFFA"
+    logo: images/MacfarlandRunningMustangLogo.png
+    left:
+      - href: index.qmd
+        text: Information about joining the MacFarland Cross Country and Track & Field teams
+  page-footer:
+    background: "#000000"
+    foreground: "#FFFFFF"
+    left: "© MacFarland Track & Cross Country"
+
+format:
+  html:
+    theme:
+      light: theme.scss
+    css: styles.css
+    toc: false
+    mainfont: "Barlow"
