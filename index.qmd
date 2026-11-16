@@ -10,7 +10,7 @@ html:
 
 **Click a link here to jump down the page.**
 
-- [Joining the Team](#joining) - health forms, consent forms, emergency contacts
+- [Joining the Team](#joining) - health forms, consent forms, and emergency contacts
 - [What to Expect](#expect) — a guide for new athletes and parents
 - [Practice Schedule](#practice) — days, times, and location
 - [Meet Schedule](#meets) — dates and locations
