@@ -5,13 +5,15 @@ html:
     smooth-scroll: true
 ---
 
-::: callout-box
-**Para ver esta página en español, haga [clic aquí](index_espanol.qmd).**
-:::
+
 
 :::: {.columns}
 
-::: {.column width="66%"}
+::: {.column width="56%"}
+
+::: callout-box
+**Para ver esta página en español, haga [clic aquí](index_espanol.qmd).**
+:::
 
 **Click a link here to jump down the page.**
 
@@ -27,7 +29,7 @@ html:
 ::: {.column width="4%"}
 :::
 
-::: {.column width="30%"}
+::: {.column width="40%"}
 ![](images/MacFarlandRunningMustangLogo.png){fig-alt="Team photo of the 2026 squad"}
 :::
 
