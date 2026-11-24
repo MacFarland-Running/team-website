@@ -1,6 +1,6 @@
 ---
 title: "¡Bienvenidos, Mustangs!"
-description: "Ya sea que apenas estés comenzando a correr o que ya estés buscando mejorar tus marcas personales, los equipos de atletismo de MacFarland te dan la bienvenida. Esta página es tu recurso único para todo lo relacionado con nuestro equipo: formularios requeridos, horarios de práctica, sedes de competencias y qué esperar en los entrenamientos y en las competencias."
+description: "¡Ya sea que apenas estés empezando a correr o que ya estés buscando superar tus mejores marcas personales, el equipo de atletismo de MacFarland te da la bienvenida! Esta página es tu guía completa con todo lo que necesitas saber sobre nuestro equipo: los formularios requeridos, los horarios de entrenamiento, las ubicaciones de las competencias y qué esperar tanto en los entrenamientos como en las competencias."
 lang: es-MX
 html:
     smooth-scroll: true

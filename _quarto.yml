@@ -4,11 +4,11 @@ project:
 
 website:
   title: "Mustang Running"
-  favicon: images/MacfarlandRunningMustangLogo.png
+  favicon: images/MacFarlandRunningMustangLogo.png
   navbar:
     background: "#000000"
     foreground: "#FFFFFA"
-    logo: images/MacfarlandRunningMustangLogo.png
+    logo: images/MacFarlandRunningMustangLogo.png
     left:
       - href: index.qmd
         text: Information about joining the MacFarland Cross Country and Track & Field teams

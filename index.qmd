@@ -1,6 +1,6 @@
 ---
 title: "Welcome, Mustangs!"
-description: "Whether you are just getting into running or already chasing personal bests, the MacFarland running teams welcome you and this page is your one-stop resource for everything about our team: required forms, practice times, meet locations, and what to expect in practice and at meets."
+description: "Whether you are just getting into running or already chasing personal bests, the MacFarland running team welcomes you! This page is your one-stop resource for everything about our team: required forms, practice times, meet locations, and what to expect in practice and at meets."
 html:
     smooth-scroll: true
 ---
