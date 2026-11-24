@@ -4,6 +4,11 @@ description: "Whether you are just getting into running or already chasing perso
 html:
     smooth-scroll: true
 ---
+
+::: callout-box
+**Para ver esta página en español, haga [clic aquí](index_espanol.qmd).**
+:::
+
 :::: {.columns}
 
 ::: {.column width="66%"}
@@ -73,7 +78,7 @@ Meets can be exciting and a little overwhelming at first. Coaches will walk ever
 
 ### For Parents
 
-- Practices happen even in light rain — dress your athlete for the weather
+- Practices happen even in light rain or snow — dress your athlete for the weather
 - Encourage rest and hydration the night before meets
 - Cheering is welcome and appreciated at all meets
 - Questions about playing time, events, or training should go to the coach directly
@@ -88,8 +93,8 @@ Practice is **rain or shine**. If we are unable to practice outside do to weathe
 
 | Day         | Time        | Focus               |
 |-------------|-------------|---------------------|
-| Monday      | 3:30–5:30pm | Running workout     |
-| Tuesday     | No practice | Rest day            |
+| Monday      | No practice | Rest day            |
+| Tuesday     | 3:30–5:30pm | Running workout     |
 | Wednesday   | No practice | Rest day            |
 | Thursday    | 3:30–5:30pm | Strength & Skills   |
 | Friday      | No practice | Rest day            |
