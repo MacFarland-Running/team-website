@@ -22,6 +22,7 @@ html:
 - [Practice Schedule](#practice) — days, times, and location
 - [Meet Schedule](#meets) — dates and locations
 - [Contact](#contact) — reach the coaching staff
+- [Shoe Closet](#shoes) - see inventory in shoe closet
 
 
 :::
@@ -157,7 +158,42 @@ We share weather delays, schedule changes, and reminders through the parent's Wh
 
 For questions about paperwork, schedules, or eligibility, contact the athletic office at [MacFarland.Athletics@k12.dc.gov](mailto:MacFarland.Athletics@k12.dc.gov).
 
+## Shoe Closet {#shoes}
 
+We occasionally have shoes and spikes that runners can use if they need proper shoes. Below is a list of our current inventory. Please have your runner talk to the coach if they would like to borrow a pair of shoes for the season.
+
+```{r}
+#| echo: false
+#| message: false
+
+library(reactable)
+library(readr)
+
+df <- read_csv("shoe_inventory.csv")
+
+reactable(
+  df,
+  searchable = TRUE,
+  striped = TRUE,
+  highlight = TRUE,
+  defaultPageSize = 10,
+  theme = reactableTheme(
+    headerStyle = list(
+      backgroundColor = "#000000",
+      color = "#ffffff",
+      fontWeight = "bold",
+      "&:hover[aria-sort]" = list(backgroundColor = "#222222"),
+      "&[aria-sort='ascending'], &[aria-sort='descending']" = list(backgroundColor = "#333333")
+    )
+  )
+)
+```
+
+::: callout-box
+**Donations Needed**
+
+If you have running shoes or track spikes that no longer fit your runner, but have a lot of life left, please donate them to our shoe closet for future runners.
+:::
 
 
 

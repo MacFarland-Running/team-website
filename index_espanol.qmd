@@ -16,6 +16,7 @@ html:
 - [Horario de prácticas](#practice) — días, horarios y lugar
 - [Calendario de competencias](#meets) — fechas y sedes
 - [Contacto](#contact) — comunícate con el cuerpo de entrenadores
+- [Armario de Zapatos](#shoes) - ver inventario en el armario de zapatos
 
 
 :::
@@ -150,3 +151,43 @@ Compartimos retrasos por clima, cambios de horario y recordatorios a través del
 ### Preguntas generales
 
 Si tienes preguntas sobre documentos, horarios o elegibilidad, comunícate con la oficina de deportes en [MacFarland.Athletics@k12.dc.gov](mailto:MacFarland.Athletics@k12.dc.gov).
+
+## Armario de Zapatos {#shoes}
+
+Ocasionalmente disponemos de zapatillas y clavos que los corredores pueden usar si necesitan calzado adecuado. A continuación, encontrará una lista de nuestro inventario actual. Si su corredor desea tomar prestadas unas zapatillas para la temporada, por favor, pídale que hable con el entrenador.
+
+```{r}
+#| echo: false
+#| message: false
+
+library(reactable)
+library(readr)
+
+df <- read_csv("shoe_inventory.csv")
+
+reactable(
+  df,
+  searchable = TRUE,
+  striped = TRUE,
+  highlight = TRUE,
+  defaultPageSize = 10,
+  theme = reactableTheme(
+    headerStyle = list(
+      backgroundColor = "#000000",
+      color = "#ffffff",
+      fontWeight = "bold",
+      "&:hover[aria-sort]" = list(backgroundColor = "#222222"),
+      "&[aria-sort='ascending'], &[aria-sort='descending']" = list(backgroundColor = "#333333")
+    )
+  )
+)
+```
+
+::: callout-box
+**Se necesitan donaciones**
+
+Si tienes zapatillas de correr o de atletismo que ya no te quedan bien, pero que aún están en buen estado, por favor, dónalas a nuestro almacén de calzado para que otros corredores puedan usarlas.
+:::
+
+
+
